@@ -1,0 +1,7 @@
+CSRF_PROTECTION = False
+DOCUMENTS_PER_PAGE = 10
+SECRET_KEY = "{{ project_secret }}"
+FLASK_APP_SETTINGS = {}
+PORT = 3000
+STATIC_FOLDER = "static"
+AUTHORIZER = "LocalAuthorizer"
